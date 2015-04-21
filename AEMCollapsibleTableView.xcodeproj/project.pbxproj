@@ -14,6 +14,8 @@
 		5890A2571AD4A1B20098766A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5890A2561AD4A1B20098766A /* Images.xcassets */; };
 		5890A25A1AD4A1B20098766A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5890A2581AD4A1B20098766A /* LaunchScreen.xib */; };
 		5890A2661AD4A1B20098766A /* AEMCollapsibleTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5890A2651AD4A1B20098766A /* AEMCollapsibleTableViewTests.m */; };
+		5890A2711AD4A4010098766A /* AEMCollapsibleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5890A2701AD4A4010098766A /* AEMCollapsibleTableViewController.m */; };
+		5890A2761AD5C3160098766A /* AEMCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5890A2751AD5C3160098766A /* AEMCustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		5890A25F1AD4A1B20098766A /* AEMCollapsibleTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AEMCollapsibleTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5890A2641AD4A1B20098766A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5890A2651AD4A1B20098766A /* AEMCollapsibleTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEMCollapsibleTableViewTests.m; sourceTree = "<group>"; };
+		5890A26F1AD4A4010098766A /* AEMCollapsibleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEMCollapsibleTableViewController.h; sourceTree = "<group>"; };
+		5890A2701AD4A4010098766A /* AEMCollapsibleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEMCollapsibleTableViewController.m; sourceTree = "<group>"; };
+		5890A2741AD5C3160098766A /* AEMCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEMCustomCell.h; sourceTree = "<group>"; };
+		5890A2751AD5C3160098766A /* AEMCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEMCustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				5890A2561AD4A1B20098766A /* Images.xcassets */,
 				5890A2581AD4A1B20098766A /* LaunchScreen.xib */,
 				5890A2491AD4A1B20098766A /* Supporting Files */,
+				5890A26F1AD4A4010098766A /* AEMCollapsibleTableViewController.h */,
+				5890A2701AD4A4010098766A /* AEMCollapsibleTableViewController.m */,
+				5890A2741AD5C3160098766A /* AEMCustomCell.h */,
+				5890A2751AD5C3160098766A /* AEMCustomCell.m */,
 			);
 			path = AEMCollapsibleTableView;
 			sourceTree = "<group>";
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5890A2761AD5C3160098766A /* AEMCustomCell.m in Sources */,
 				5890A2521AD4A1B20098766A /* ViewController.m in Sources */,
 				5890A24F1AD4A1B20098766A /* AppDelegate.m in Sources */,
+				5890A2711AD4A4010098766A /* AEMCollapsibleTableViewController.m in Sources */,
 				5890A24C1AD4A1B20098766A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
